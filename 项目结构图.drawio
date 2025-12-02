@@ -1,0 +1,70 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="第 1 页" id="7xVPT6aYPwRCppg7WQ9K">
+    <mxGraphModel dx="1295" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-1" value="模型微调（SFT / LoRA）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="448" y="403" width="109" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-2" value="Qwen2.5-7B-Chat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="511" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="smFnUJUhZgoFGVzXxevZ-8" target="smFnUJUhZgoFGVzXxevZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="smFnUJUhZgoFGVzXxevZ-8" target="smFnUJUhZgoFGVzXxevZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="smFnUJUhZgoFGVzXxevZ-8" target="smFnUJUhZgoFGVzXxevZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="smFnUJUhZgoFGVzXxevZ-8" target="smFnUJUhZgoFGVzXxevZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="smFnUJUhZgoFGVzXxevZ-8" target="smFnUJUhZgoFGVzXxevZ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-8" value="基于 Qwen2.5 的技术文档 RAG 系统优化：从指令微调到检索链路评测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="448" width="181" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-9" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="467.18" y="220" width="185" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="smFnUJUhZgoFGVzXxevZ-9" source="smFnUJUhZgoFGVzXxevZ-12" target="smFnUJUhZgoFGVzXxevZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="smFnUJUhZgoFGVzXxevZ-9" source="smFnUJUhZgoFGVzXxevZ-12" target="smFnUJUhZgoFGVzXxevZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-12" value="数据集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="smFnUJUhZgoFGVzXxevZ-9">
+          <mxGeometry x="-19" y="40" width="71" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-13" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;strong data-start=&quot;1186&quot; data-end=&quot;1196&quot; style=&quot;&quot;&gt;检索评测数据&lt;/strong&gt;（RAG 用&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="smFnUJUhZgoFGVzXxevZ-9">
+          <mxGeometry x="101" width="80" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-14" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;指令微调数据（SFT）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="smFnUJUhZgoFGVzXxevZ-9">
+          <mxGeometry x="101" y="86" width="84" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-15" value="RAG Pipeline 设计" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="448" y="514" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-16" value="评测（Eval）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="448" y="622" width="84" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.444;entryY=0.054;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="smFnUJUhZgoFGVzXxevZ-8" target="smFnUJUhZgoFGVzXxevZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-18" value="服务化 &amp;amp; Demo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="448" y="719" width="97" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-19" value="fastAPI" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="712.09" y="221" width="61.82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="smFnUJUhZgoFGVzXxevZ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="smFnUJUhZgoFGVzXxevZ-13" target="smFnUJUhZgoFGVzXxevZ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
